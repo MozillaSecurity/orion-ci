@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orion-ci"
+version = "v0.0.8"
+dependencies = [
+    "orion-decision @ git+https://github.com/MozillaSecurity/orion/@v0.0.8#subdirectory=services/orion-decision",
+]
