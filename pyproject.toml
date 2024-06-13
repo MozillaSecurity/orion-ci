@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "orion-ci"
-version = "v0.0.8"
+version = "v0.0.9"
 dependencies = [
-    "orion-decision @ git+https://github.com/MozillaSecurity/orion/@v0.0.8#subdirectory=services/orion-decision",
+    "orion-decision @ git+https://github.com/MozillaSecurity/orion/@v0.0.9#subdirectory=services/orion-decision",
 ]
